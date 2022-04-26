@@ -1,0 +1,643 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - ProfessorUni</title>
+
+    <!-- Custom CSS -->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="main-wrapper">
+
+    <!-- ============================================================== -->
+    <!-- Top header  -->
+    <!-- ============================================================== -->
+    <!-- Start Navigation -->
+
+    <div class="header header-transparent dark-text">
+        <div class="container">
+            <nav id="navigation" class="navigation navigation-landscape">
+                <div class="nav-header">
+                    <a class="nav-brand" href="/">
+                        <img src="{% static 'img/logo/black-new.png' %}" class="logo img-fluid" alt=""/>
+                    </a>
+                    <div class="nav-toggle"></div>
+                    <div class="mobile_nav">
+                        <ul>
+                            <li>
+                                <a href="#contact" class="crs_yuo12 w-auto text-white theme-bg">
+                                    <span class="embos_45">Book a Call</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-menus-wrapper">
+                    <ul class="nav-menu align-to-center">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                    <ul class="nav-menu nav-menu-social align-to-right">
+                        <li class="add-listing theme-bg">
+                            <a href="#contact" class="text-white">Book a Call</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End Navigation -->
+
+    <div class="clearfix"></div>
+    <!-- ============================================================== -->
+    <!-- Top header  -->
+    <!-- ============================================================== -->
+
+    <!-- ============================ Hero Banner  Start================================== -->
+    <div class="hero_banner image-cover image_bottom h4_bg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="simple-search-wrap text-left">
+                        <div class="hero_search-2">
+                            <h1 class="banner_title mb-4">Plan for a Bright Future</h1>
+                            <p class="font-lg mb-2">
+                                We are a group of university lecturers, and our aim is to nurture and support all 11–16
+                                year olds in the North West.
+                            </p>
+                            <p>
+                                We provide young people an opportunity to get stuck into the world of STEM. All our
+                                projects are hands on, designed to help young people make things, make friends and make
+                                a difference in the community. All projects are mapped to the Key Stage 3/4 National
+                                Curriculum: Science, Design & Technology, Art & Design, and Computing subjects.
+                            </p>
+
+                            <div class="inline_edu_first mt-3 mb-4">
+                                <a href="#skillsCovered" class="btn theme-bg btn-sm text-white">Skills Covered</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="side_block extream_img">
+                        <div class="list_crs_img">
+                            <img src="{% static 'img/ic-1.png' %}" class="img-fluid cirl animate-fl-y" alt=""/>
+                            <img src="{% static 'img/ic-2.png' %}" class="img-fluid arrow animate-fl-x" alt=""/>
+                            <img src="{% static 'img/ic-3.png' %}" class="img-fluid moon animate-fl-x" alt=""/>
+                        </div>
+                        <img src="{% static 'img/side-2.png' %}" class="img-fluid" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================ Hero Banner End ================================== -->
+
+
+    <!-- ================================ Tag Award ================================ -->
+    <section class="p-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="crp_box fl_color ovr_top">
+                        <div class="row align-items-center">
+                            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12">
+                                <div class="dro_140">
+                                    <div class="dro_141"><i class="fa fa-journal-whills"></i></div>
+                                    <div class="dro_142">
+                                        <h6>Science</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12">
+                                <div class="dro_140">
+                                    <div class="dro_141"><i class="fa fa-journal-whills"></i></div>
+                                    <div class="dro_142">
+                                        <h6>Computing</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                                <div class="dro_140">
+                                    <div class="dro_141"><i class="fa fa-journal-whills"></i></div>
+                                    <div class="dro_142">
+                                        <h6>Design & Technology</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                                <div class="dro_140">
+                                    <div class="dro_141"><i class="fa fa-journal-whills"></i></div>
+                                    <div class="dro_142">
+                                        <h6>Engineering</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12">
+                                <div class="dro_140">
+                                    <div class="dro_141"><i class="fa fa-journal-whills"></i></div>
+                                    <div class="dro_142">
+                                        <h6>Art</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ================================ Tag Award ================================ -->
+
+    <!-- ============================ Featured Categories Start ================================== -->
+    <section class="min">
+        <div class="container">
+
+            <div class="row justify-content-center" id="skillsCovered">
+                <div class="col-lg-7 col-md-8">
+                    <div class="sec-heading center">
+                        <h2><span class="theme-cl">Skills</span> Covered</h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row justify-content-center">
+                <!-- Single Category -->
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                    <div class="crs_cate_wrap style_2">
+                        <a href="#" class="crs_cate_box">
+                            <div class="crs_cate_icon"><i class="fa fa-gamepad"></i></div>
+                            <div class="crs_cate_caption"><span>Gaming</span></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                    <div class="crs_cate_wrap style_2">
+                        <a href="#" class="crs_cate_box">
+                            {#                            <div class="crs_cate_icon"><i class="fa fa-window-restore"></i></div>#}
+                            <div class="crs_cate_icon"><i class="fa fa-code"></i></div>
+                            <div class="crs_cate_caption"><span>Coding</span></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                    <div class="crs_cate_wrap style_2">
+                        <a href="#" class="crs_cate_box">
+                            <div class="crs_cate_icon"><i class="fa fa-print"></i></div>
+                            <div class="crs_cate_caption"><span>3D Printing & Animation</span></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                    <div class="crs_cate_wrap style_2">
+                        <a href="#" class="crs_cate_box">
+                            <div class="crs_cate_icon"><i class="fa fa-film"></i></div>
+                            <div class="crs_cate_caption"><span>Films & Media</span></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                    <div class="crs_cate_wrap style_2">
+                        <a href="#" class="crs_cate_box">
+                            <div class="crs_cate_icon"><i class="fa fa-tablet"></i></div>
+                            <div class="crs_cate_caption"><span>Smartphones & Tablets</span></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                    <div class="crs_cate_wrap style_2">
+                        <a href="#" class="crs_cate_box">
+                            <div class="crs_cate_icon"><i class="fa fa-robot"></i></div>
+                            <div class="crs_cate_caption"><span>Robots</span></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                    <div class="crs_cate_wrap style_2">
+                        <a href="#" class="crs_cate_box">
+                            <div class="crs_cate_icon"><i class="fa fa-users"></i></div>
+                            <div class="crs_cate_caption"><span>Social Media</span></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                    <div class="crs_cate_wrap style_2">
+                        <a href="#" class="crs_cate_box">
+                            <div class="crs_cate_icon"><i class="fa fa-mobile"></i></div>
+                            <div class="crs_cate_caption"><span>Apps</span></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                    <div class="crs_cate_wrap style_2">
+                        <a href="#" class="crs_cate_box">
+                            <div class="crs_cate_icon"><i class="fa fa-wave-square"></i></div>
+                            <div class="crs_cate_caption"><span>Electronics</span></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- ============================ Featured Categories End ================================== -->
+
+
+    <!-- ============================ Top Categories Start ================================== -->
+    <section class="min image-cover image_bottom h6_bg">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-10 text-center">
+                    <div class="sec-heading center mb-4">
+                        <h2><span class="theme-cl">Themes</span> Covered</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="edu_cat_2 cat-1">
+                        <div class="edu_cat_data">
+                            <h4 class="title"><a href="#">Product Design</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="edu_cat_2 cat-2">
+                        <div class="edu_cat_data">
+                            <h4 class="title align-content-center"><a href="#">Smart Homes</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="edu_cat_2 cat-3">
+                        <div class="edu_cat_data">
+                            <h4 class="title"><a href="#">Smart Cities</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="edu_cat_2 cat-4">
+                        <div class="edu_cat_data">
+                            <h4 class="title"><a href="#">Games</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="edu_cat_2 cat-10">
+                        <div class="edu_cat_data">
+                            <h4 class="title"><a href="#">Apps</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="edu_cat_2 cat-6">
+                        <div class="edu_cat_data">
+                            <h4 class="title"><a href="#">Rail</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="edu_cat_2 cat-7">
+                        <div class="edu_cat_data">
+                            <h4 class="title"><a href="#">Construction</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="edu_cat_2 cat-8">
+                        <div class="edu_cat_data">
+                            <h4 class="title"><a href="#">Aerospace</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="edu_cat_2 cat-9">
+                        <div class="edu_cat_data">
+                            <h4 class="title"><a href="#">Automotive</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ============================ Top Categories End ================================== -->
+
+    <!-- ============================ Students Reviews ================================== -->
+    <section>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-8">
+                    <div class="sec-heading center">
+                        <h2>Our Students <span class="theme-cl">Reviews</span></h2>
+                        <p>
+                            Our inspirations are the students success
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-xl-12 col-lg-12 col-sm-12">
+
+                    <div class="reviews-slide space">
+
+                        <!-- Single Item -->
+                        <div class="single_items lios_item">
+                            <div class="_testimonial_wrios shadow_none">
+                                <div class="facts-detail">
+                                    <p>
+                                        It takes us away from school pressures and gives us a balance. I learned these
+                                        amazing new skills that I wouldn’t have had the opportunity to learn anywhere
+                                        else!
+                                    </p>
+                                </div>
+                                <div class="_testimonial_flex">
+                                    <div class="_testimonial_flex_first_last">
+                                        <div class="_tsl_flex_capst">
+                                            <h5>- Alice</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Item -->
+                        <div class="single_items lios_item">
+                            <div class="_testimonial_wrios shadow_none">
+                                <div class="facts-detail">
+                                    <p>
+                                        The courses were amazing! I loved being involved in new activities I've never
+                                        done before and getting the opportunity to share with others.
+                                    </p>
+                                </div>
+
+                                <div class="_testimonial_flex">
+                                    <div class="_testimonial_flex_first_last">
+                                        <div class="_tsl_flex_capst">
+                                            <h5>- Maxine</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Item -->
+                        <div class="single_items lios_item">
+                            <div class="_testimonial_wrios shadow_none">
+                                <div class="facts-detail">
+                                    <p>
+                                        I found this programme to be so fun and helpful that it actually inspired me to
+                                        create my own app, which was published on Google Play Store. Absolutely
+                                        brilliant for aspiring young programmers.
+                                    </p>
+                                </div>
+                                <div class="_testimonial_flex">
+                                    <div class="_testimonial_flex_first_last">
+                                        <div class="_tsl_flex_capst">
+                                            <h5>- Roy</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ============================ Students Reviews End ================================== -->
+
+
+    <!-- ============================ About Detail ================================== -->
+    <section id="about" class="gray">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="lmp_caption">
+                        <h2 class="mb-3">Our Values & Vision</h2>
+                        <p>
+                            Who you are and where you started your journey in life should not determine where you end
+                            up. We are determined to ensure everyone progresses in life regardless of race, gender or
+                            socioeconomic class. Social mobility, equality, diversity & inclusivity are at the heart of
+                            our mission, firmly embedded in our core values and central to our strategic objectives.
+
+                        </p>
+                        <div class="text-left mt-4 mb-4">
+                            <a href="#contact" class="btn btn-md text-light theme-bg">
+                                Book a Call Today
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                    <div class="lmp_thumb">
+                        <img src="{% static 'img/about-us.png' %}" class="img-fluid" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ About Detail ================================== -->
+
+    <!-- ============================ Call To Action ================================== -->
+    <section id="questions" class="theme-bg call_action_wrap-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="call_action_wrap">
+                        <div class="call_action_wrap-head">
+                            <h3>Do You Have Questions ?</h3>
+                            <span>We'll help you accelerate your career</span>
+                        </div>
+                        <a href="#contact" class="btn btn-call_action_wrap">Contact Us Today</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ Call To Action End ================================== -->
+
+    <!-- ============================ Contact Detail ================================== -->
+    <section id="contact">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
+                    <div class="form-group">
+                        <h4>We'd love to hear from you</h4>
+                        <span>Send us a message, and we'll respond as soon as possible</span>
+                    </div>
+                    <form method="POST" class="row">
+                        {% csrf_token %}
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <label for="id_name">Name</label>
+                                <input type="text" class="form-control" name="name" maxlength="256" required
+                                       id="id_name"/>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <label for="id_email">Email</label>
+                                <input type="email" class="form-control" name="email" maxlength="254" required
+                                       id="id_email"/>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <label for="id_message">Message</label>
+                                <input type="text" class="form-control" name="message" cols="40" rows="10"
+                                       maxlength="256" required id="id_message"/>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <button class="btn theme-bg text-white btn-md" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                    <div class="lmp_caption pl-lg-5">
+                        <ol class="list-unstyled p-0">
+                            <li class="d-flex align-items-start my-3 my-md-4">
+                                <div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center theme-bg-light">
+                                    <div class="position-absolute theme-cl h5 mb-0"><i class="fas fa-home"></i></div>
+                                </div>
+                                {#                                <div class="ml-3 ml-md-4">#}
+                                {#                                    <h4>Address</h4>#}
+                                {#                                    <p>#}
+                                {#                                        Partnership For Learning Charity | South Road,<br>Speke, Liverpool L24 9PZ,<br>United#}
+                                {#                                        Kingdom#}
+                                {#                                    </p>#}
+                                {#                                </div>#}
+                            </li>
+                            <li class="d-flex align-items-start my-3 my-md-4">
+                                <div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center theme-bg-light">
+                                    <div class="position-absolute theme-cl h5 mb-0"><i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="ml-3 ml-md-4">
+                                    <h4>Email</h4>
+                                    <p>
+                                        <a href="mailto:info@professoruni.com">info@professoruni.com</a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ Contact Detail ================================== -->
+
+    <!-- ============================ Footer Start ================================== -->
+    <footer class="dark-footer skin-dark-footer style-2">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-7 col-md-5">
+                        <div class="footer_widget">
+                            <img src="{% static 'img/logo/white-new.png' %}" class="img-footer small mb-2" alt=""/>
+
+                            {#									<p>Receive updates, hot deals, tutorials, sent straight in your inbox every month</p>#}
+
+                            <p>
+                                {#                                <i class="fas fa-home"></i> Partnership For Learning Charity | South Road, Speke,#}
+                                {#                                Liverpool L24 9PZ, United Kingdom<br>#}
+                                <i class="fas fa-envelope"></i> info@professoruni.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-7 ml-auto">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5">
+                                <div class="footer_widget">
+                                    {# <h4 class="widget_title">All Sections</h4> #}
+                                    <ul class="footer-menu">
+                                        {#                                        <li><a href="#preuniprogramme">Pre-University Programme</a></li>#}
+                                        {#                                        <li><a href="#atuniprogramme">At-University Programme</a></li>#}
+                                        <li><a href="#about">About Us</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <p class="mb-0">&copy; Copyright ProfessorUni
+                            <script>document.write(new Date().getFullYear());</script>
+                            All right reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ============================ Footer End ================================== -->
+
+    <a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+
+
+</div>
+<!-- ============================================================== -->
+<!-- End Wrapper -->
+<!-- ============================================================== -->
+
+<!-- ============================================================== -->
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/select2.min.js' %}"></script>
+<script src="{% static 'js/slick.js' %}"></script>
+<script src="{% static 'js/moment.min.js' %}"></script>
+<script src="{% static 'js/daterangepicker.js' %}"></script>
+<script src="{% static 'js/summernote.min.js' %}"></script>
+<script src="{% static 'js/metisMenu.min.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+<!-- ============================================================== -->
+<!-- This page plugins -->
+<!-- ============================================================== -->
+
+</body>
+</html>
