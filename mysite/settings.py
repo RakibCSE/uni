@@ -17,7 +17,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 ALLOWED_HOSTS = ['.professoruni.com', 'professoruni.com']
 
 if DEBUG:
-    ALLOWED_HOSTS += ['localhost', '127.0.0.1']
+    ALLOWED_HOSTS += ['localhost', '127.0.0.1', '18.168.19.165']
 
 # Application definition
 
