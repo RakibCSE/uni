@@ -19,7 +19,7 @@ class Index(View):
             'contact_form': contact_form,
             'book_form': book_form
         }
-        return render(request, 'core/index.html', context)
+        return render(request, 'core/index2.html', context)
 
     def post(self, request, *args, **kwargs):
 
