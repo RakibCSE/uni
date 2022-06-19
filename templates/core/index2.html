@@ -1,0 +1,680 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - ProfessorUni</title>
+
+    <!-- Custom CSS -->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<!-- ============================================================== -->
+<!-- End Wrapper -->
+<!-- ============================================================== -->
+
+<!-- ============================================================== -->
+<!-- All Jquery -->
+<!-- ============================================================== -->
+<div id="main-wrapper">
+
+    <!-- Start Navigation -->
+    <div class="header header-transparent dark-text">
+        <div class="container">
+            <nav id="navigation" class="navigation navigation-landscape">
+                <div class="nav-header">
+                    <a class="nav-brand" href="/">
+                        <img src="{% static 'img/logo/black-new.png' %}" class="logo img-fluid" alt=""/>
+                    </a>
+                    <div class="nav-toggle"></div>
+                    <div class="mobile_nav">
+                        <ul>
+                            <li>
+                                <a href="#contact" class="crs_yuo12 w-auto text-white theme-bg">
+                                    <span class="embos_45">ENQUIRE NOW</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-menus-wrapper">
+                    {#                    <ul class="nav-menu align-to-center">#}
+                    {#                        <li><a href="#about">About Us</a></li>#}
+                    {#                        <li><a href="#contact">Contact</a></li>#}
+                    {#                    </ul>#}
+
+                    <ul class="nav-menu nav-menu-social align-to-right">
+                        <li class="add-listing theme-bg">
+                            <a href="#contact" class="text-white">ENQUIRE NOW</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End Navigation -->
+
+    <div class="clearfix"></div>
+
+    <!-- ============================ Hero Banner  Start================================== -->
+    <div class="hero_banner image-cover image_bottom h4_bg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="simple-search-wrap text-left">
+                        <div class="hero_search-2">
+
+                            <div style="text-transform: uppercase;">
+                                <h5 class="font-lg mb-2">
+                                    Learning provision
+                                </h5>
+                                <h1 class="banner_title mb-4">
+                                    Bespoke Support Solutions For Pupils Not Attending Full Time Education
+                                </h1>
+                            </div>
+                            <p class="font-lg mb-2">
+                                Literacy, numeracy and certified vocational education and
+                                training courses in dedicated training centres.
+                            </p>
+
+                            <div class="inline_edu_first mt-3 mb-4">
+                                <a href="#contact" class="btn btn-outline-theme theme-bg text-white">
+                                    ENQUIRE NOW
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="side_block extream_img">
+                        <div class="list_crs_img">
+                            <img src="{% static 'img/ic-1.png' %}" class="img-fluid cirl animate-fl-y" alt=""/>
+                            <img src="{% static 'img/ic-2.png' %}" class="img-fluid arrow animate-fl-x" alt=""/>
+                            <img src="{% static 'img/ic-3.png' %}" class="img-fluid moon animate-fl-x" alt=""/>
+                        </div>
+                        <img src="{% static 'img/side-2.png' %}" class="img-fluid" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================ Hero Banner End ================================== -->
+
+    <!-- ============================ Hero section 2 ================================== -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                    <div class="lmp_thumb">
+                        <img src="{% static 'img/side-3.png' %}" class="img-fluid" alt=""/>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="simple-search-wrap text-left">
+                        <div class="hero_search-2">
+                            <h1 class="banner_title mb-4">Plan for a Bright Future</h1>
+                            <p class="font-lg mb-2">
+                                We are a group of university lecturers and NHS healthcare professionals.
+                                Our aim is to get the very best out of, each and every young person we work with.
+                            </p>
+                            <p class="font-lg mb-2">
+                                <strong>Our programme combines 4 elements:</strong>
+                            </p>
+                            <div class="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                                <div class="d-flex align-items-center">
+                                    <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <h6 class="mb-0 ml-3">Numeracy & Literacy</h6>
+                                </div>
+                            </div>
+                            <div class="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                                <div class="d-flex align-items-center">
+                                    <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <h6 class="mb-0 ml-3">Cognitive behaviour therapy (CBT) delivered by NHS staff</h6>
+                                </div>
+                            </div>
+                            <div class="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                                <div class="d-flex align-items-center">
+                                    <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <h6 class="mb-0 ml-3">Vocational pathway (training and apprenticeship)</h6>
+                                </div>
+                            </div>
+                            <div class="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                                <div class="d-flex align-items-center">
+                                    <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <h6 class="mb-0 ml-3">Work experience opportunities</h6>
+                                </div>
+                            </div>
+
+                            <div class="inline_edu_first mt-3 mb-4">
+                                <a href="#skillsCovered" class="btn theme-bg btn-sm text-white">Skills Covered</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ Hero section 2 End ================================== -->
+
+    <!-- ============================ NO YOUNG PERSON Start ================================== -->
+    <section class="min gray">
+        <div class="container">
+            <div class="row align-items-center justify-content-between mb-5">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="">
+                        <h5 class="mb-4">
+                            NO YOUNG PERSON SHOULD BE LEFT BEHIND
+                        </h5>
+                        <h2 class="mb-3" style="line-height: 2.5rem;">
+                            Whatever the reason a young person is not attending full time education,
+                            our dedicated learning outreach provision is there to support them to succeed in literacy
+                            and numeracy and build a vocational pathway of their choice.
+                        </h2>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12">
+                    <div class="lmp_thumb">
+                        <img src="{% static 'img/online-programming-course-featured-review-figure-img.png' %}"
+                             class="img-fluid"
+                             alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ NO YOUNG PERSON End ================================== -->
+
+    <!-- ============================ Work Process Start ================================== -->
+    <section class="min">
+        <div class="container">
+
+            <div class="row align-items-center justify-content-between mb-5">
+
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12">
+                    <div class="side_block extream_img">
+                        <img src="{% static 'img/ShineLearningOutreachProvision.jpg' %}" class="img-fluid" alt=""/>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="lmp_caption">
+                        <p>
+                            DEDICATED EDUCATION PACKAGES
+                        </p>
+                        <h2 class="mb-3" style="text-transform: uppercase; font-size: 2.5rem;">
+                            What We Provide
+                        </h2>
+                        <p>
+                            All of our bespoke packages offer comprehensive access to everything needed for pupils to
+                            restart their educational journey or transition back into mainstream schooling.
+                        </p>
+                        <div class="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                            <div class="d-flex align-items-center">
+                                <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <h6 class="mb-0 ml-3">Laptop Provided</h6>
+                            </div>
+                        </div>
+                        <div class="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                            <div class="d-flex align-items-center">
+                                <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <h6 class="mb-0 ml-3">1:1 Learning Mentor</h6>
+                            </div>
+                        </div>
+                        <div class="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                            <div class="d-flex align-items-center">
+                                <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <h6 class="mb-0 ml-3">Learning Resources & Software</h6>
+                            </div>
+                        </div>
+                        <div class="mb-3 mr-4 ml-lg-0 mr-lg-4">
+                            <div class="d-flex align-items-center">
+                                <div class="rounded-circle bg-light-success theme-cl p-2 small d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <h6 class="mb-0 ml-3">Transport to Vocational Sessions</h6>
+                            </div>
+                        </div>
+                        <div class="text-left mt-4">
+                            <a href="#contact" class="btn btn-md text-light theme-bg">
+                                ENQUIRE NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ Work Process Start ================================== -->
+
+    <!-- ============================ Article Start ================================== -->
+    <section class="min gray">
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <!-- Single Item -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="blg_grid_box">
+                        <div class="blg_grid_thumb">
+                            <a href="#">
+                                <img src="{% static 'img/shineoutreachlearningprovisionmaths.jpg' %}"
+                                     class="img-fluid" alt=""/>
+                            </a>
+                        </div>
+                        <div class="blg_grid_caption">
+                            <div class="blg_tag"><span>NUMERACY</span></div>
+                            <div class="blg_title">
+                                <h4>
+                                    <a href="#">
+                                        Key Stages 1, 2 & 3 // GCSE // Functional Skills
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="blg_desc">
+                                <p>
+                                    Bespoke plans for each pupil - designed and assessed by qualified teachers.
+                                    Access to exam centre included.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="blg_grid_box">
+                        <div class="blg_grid_thumb">
+                            <a href="#">
+                                <img src="{% static 'img/shineoutreachlearningprovsionliteracy.jpg' %}"
+                                     class="img-fluid" alt=""/>
+                            </a>
+                        </div>
+                        <div class="blg_grid_caption">
+                            <div class="blg_tag"><span>LITERACY</span></div>
+                            <div class="blg_title">
+                                <h4>
+                                    <a href="#">
+                                        English Language & Literature
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="blg_desc">
+                                <p>
+                                    All stages of literacy covered, delivered by our
+                                    dedicated learning mentors and assessed by teachers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Item -->
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="blg_grid_box">
+                        <div class="blg_grid_thumb">
+                            <a href="#">
+                                <img src="{% static 'img/shinelearningoutreachprovisiontherapeutic.jpg' %}"
+                                     class="img-fluid" alt=""/>
+                            </a>
+                        </div>
+                        <div class="blg_grid_caption">
+                            <div class="blg_tag"><span>THERAPEUTIC SERVICES</span></div>
+                            <div class="blg_title">
+                                <h4>
+                                    <a href="#">
+                                        Speech & Language // Counselling // Play Therapy
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="blg_desc">
+                                <p>
+                                    Therapeutic interventions and services provided by fully
+                                    qualified professionals included in package plans.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <!-- ============================ article End ================================== -->
+
+    <!-- ============================ Call To Action ================================== -->
+    <section class="theme-bg call_action_wrap-wrap" style="background: #8d8f67 !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="call_action_wrap">
+                        <div class="call_action_wrap-head">
+                            <h3>Examples of our vocational pathways</h3>
+                            <span>
+                                Our vocational sessions are delivered by experts in their field and can lead to
+                                certified qualifications and offers of work.
+                                <br>
+                                Transport to sessions is provided in every package.
+                            </span>
+                        </div>
+                        <a href="#contact" class="btn btn-call_action_wrap">Find out more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ Call To Action End ================================== -->
+
+    <!-- ============================ Our Instructor Start ================================== -->
+    <section class="min">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="tutor-slide">
+
+                        <!-- Single Item -->
+                        <div class="lios_item">
+                            <div class="crs_trt_grid shadow_none brd">
+                                <div class="crs_trt_thumb">
+                                    <a href="#" class="crs_trt_thum_link">
+                                        <img src="{% static 'img/shinelearningoutreachprovisionsports.jpg' %}"
+                                             class="img-fluid" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="crs_trt_caption large">
+                                    <div class="instructor_title">
+                                        <h4>
+                                            <a href="#">
+                                                SPORTS & LEADERSHIP
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Item -->
+                        <div class="lios_item">
+                            <div class="crs_trt_grid shadow_none brd">
+                                <div class="crs_trt_thumb">
+                                    <a href="#" class="crs_trt_thum_link">
+                                        <img src="{% static 'img/john-karlo-mendoza-q_ap3Wc5goM-unsplash.jpg' %}"
+                                             class="img-fluid" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="crs_trt_caption large">
+                                    <div class="instructor_title">
+                                        <h4>
+                                            <a href="#">
+                                                BARBERING & HAIRDRESSING
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Item -->
+                        <div class="lios_item">
+                            <div class="crs_trt_grid shadow_none brd">
+                                <div class="crs_trt_thumb">
+                                    <a href="#" class="crs_trt_thum_link">
+                                        <img src="{% static 'img/thisisengineering-raeng-a7A9O5htrKs-unsplash.jpg' %}"
+                                             class="img-fluid" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="crs_trt_caption large">
+                                    <div class="instructor_title">
+                                        <h4>
+                                            <a href="#">
+                                                GAME DESIGN
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Single Item -->
+                        <div class="lios_item">
+                            <div class="crs_trt_grid shadow_none brd">
+                                <div class="crs_trt_thumb">
+                                    <a href="#" class="crs_trt_thum_link">
+                                        <img src="{% static 'img/shinelearningoutreachprovsionconstruction.jpg' %}"
+                                             class="img-fluid" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="crs_trt_caption large">
+                                    <div class="instructor_title">
+                                        <h4>
+                                            <a href="#">
+                                                CONSTRUCTION
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ============================ Our Instructor End ================================== -->
+
+    <!-- ============================ Explicit Announcement Start ================================== -->
+    <section class="gray">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-md-8">
+                    <div class="sec-heading center">
+                        <h2>
+                            As Part Of Our Service, We Are Also Able To Offer Advice Regarding Education,
+                            Health And Care Plans.
+                            If You Would Like To Speak To Us About EHCP Plans,
+                            Please <a href="#contact"><span class="theme-cl">Get In Touch.</span></a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ Explicit Announcement End ================================== -->
+
+    <!-- ============================ Contact Detail ================================== -->
+    <section id="contact">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
+                    <div class="form-group">
+                        <h4>We'd love to hear from you</h4>
+                        <span>Send us a message and we'll respond as soon as possible</span>
+                    </div>
+                    <form method="POST" class="row">
+                        {% csrf_token %}
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <label for="id_name">Name</label>
+                                <input type="text" class="form-control" name="name" maxlength="256" required
+                                       id="id_name"/>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <label for="id_email">Email</label>
+                                <input type="email" class="form-control" name="email" maxlength="254" required
+                                       id="id_email"/>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <label for="id_message">Message</label>
+                                <input type="text" class="form-control" name="message" cols="40" rows="10"
+                                       maxlength="256" required id="id_message"/>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <button class="btn theme-bg text-white btn-md" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                    <div class="lmp_caption pl-lg-5">
+                        <ol class="list-unstyled p-0">
+                            <li class="d-flex align-items-start my-3 my-md-4">
+                                {#                                <div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center theme-bg-light">#}
+                                {#                                    <div class="position-absolute theme-cl h5 mb-0"><i class="fas fa-home"></i></div>#}
+                                {#                                </div>#}
+                                {#                                <div class="ml-3 ml-md-4">#}
+                                {#                                    <h4>Address</h4>#}
+                                {#                                    <p>#}
+                                {#                                        Partnership For Learning Charity | South Road,<br>Speke, Liverpool L24 9PZ,<br>United#}
+                                {#                                        Kingdom#}
+                                {#                                    </p>#}
+                                {#                                </div>#}
+                            </li>
+                            <li class="d-flex align-items-start my-3 my-md-4">
+                                <div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center theme-bg-light">
+                                    <div class="position-absolute theme-cl h5 mb-0"><i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="ml-3 ml-md-4">
+                                    <h4>Email</h4>
+                                    <p>
+                                        <a href="mailto:hello@professoruni.com">hello@professoruni.com</a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================ Contact Detail ================================== -->
+
+    <!-- ============================ Footer Start ================================== -->
+    <footer class="dark-footer skin-dark-footer style-2">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-4">
+                        <div class="footer_widget">
+                            <img src="{% static 'img/logo/white-new.png' %}" class="img-footer small mb-2" alt=""/>
+                            <p>
+                                Compassion, aspiration and excellence in Education and
+                                Care consultancy, recruitment and services.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 ml-auto">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="footer_widget">
+                                    <h4 class="widget_title">Contact Info</h4>
+                                    <p>
+                                        <i class="fas fa-home"></i>
+                                        Partnership For Learning Charity South Road, Speke, Liverpool, United Kingdom,
+                                        L24 9PZ
+                                        <br>
+
+                                        <i class="fas fa-envelope"></i>
+                                        <a href="mailto:hello@professoruni.com">
+                                            hello@professoruni.com
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 ml-auto">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="footer_widget">
+                                    <h4 class="widget_title">Our Services</h4>
+                                    <ul class="footer-menu">
+                                        <li>Consultancy</li>
+                                        <li>Recruitment</li>
+                                        <li>Outreach</li>
+                                        <li>Teachers and Tuition</li>
+                                        <li>Advocacy</li>
+                                        <li>Therapeutic Services</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <p class="mb-0">&copy; Copyright ProfessorUni
+                            <script>document.write(new Date().getFullYear());</script>
+                            All right reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ============================ Footer End ================================== -->
+
+    <a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+
+
+</div>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/select2.min.js' %}"></script>
+<script src="{% static 'js/slick.js' %}"></script>
+<script src="{% static 'js/moment.min.js' %}"></script>
+<script src="{% static 'js/daterangepicker.js' %}"></script>
+<script src="{% static 'js/summernote.min.js' %}"></script>
+<script src="{% static 'js/metisMenu.min.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+<!-- ============================================================== -->
+<!-- This page plugins -->
+<!-- ============================================================== -->
+
+</body>
+</html>
