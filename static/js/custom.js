@@ -263,7 +263,7 @@ $(function() {
 	  arrows: true,
 	  dots: true,
 	  infinite: true,
-	  speed: 500,
+	  speed: 400,
 	  cssEase: 'linear',
 	  autoplaySpeed: 2000,
 	  autoplay:true,

@@ -4357,6 +4357,10 @@ ul.lt_cr_list li i {
     height: 110px;
 }
 
+.crs_trt_thum_link img {
+    height: 280px;
+}
+
 .crs_trt_caption {
     position: relative;
     display: block;
@@ -8607,7 +8611,7 @@ footer.skin-dark-footer h4 {
 }
 
 footer.skin-dark-footer .footer_widget ul li a, footer.skin-dark-footer, footer.skin-dark-footer a {
-    color: #5e6d88;
+    color: #c6cbd5;
     transition: all ease 0.4s;
     font-size: 14px;
     font-weight: 600;
@@ -8786,7 +8790,7 @@ footer.skin-dark-footer ul.footer-bottom-social li a:hover, footer.skin-dark-foo
     }
 
     .banner_title {
-        font-size: 50px;
+        font-size: 42px;
         line-height: 1.2;
     }
 }
