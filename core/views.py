@@ -35,7 +35,7 @@ class Index(View):
                 f'{name}-{email} from ProfessorUni',  # subject
                 message,  # message
                 email,  # from email
-                ['hello@professoruni.com'],  # to email
+                ['admin@creative-mindset.co.uk'],  # to email
             )
             messages.success(request, f'Hey {name}! Your message has been sent')
             return redirect('index')
