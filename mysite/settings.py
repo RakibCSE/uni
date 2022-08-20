@@ -14,7 +14,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['professoruni.com', '.professoruni.com']
+ALLOWED_HOSTS = ['creative-mindset.co.uk', '.creative-mindset.co.uk']
 
 if DEBUG:
     ALLOWED_HOSTS += ['localhost', '127.0.0.1', '18.168.19.165']
